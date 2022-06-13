@@ -1,11 +1,7 @@
 const isPrime = ($int) => {
-  if ($int === 1) {
-    return false;
-  }
-  for (let i = 2; i <= $int - 1; i += 1) {
-    if ($int % i === 0) {
-      return false;
-    }
+  if ($int === 1) return false;
+  for (let i = 2; i < $int; i += 1) {
+    if ($int % i === 0) return false;
   }
   return true;
 };
