@@ -1,3 +1,1 @@
-[submodule "04-Git-and-Github/aescen-04-Git-and-Github"]
-	path = 04-Git-and-Github/aescen-04-Git-and-Github
-	url = https://github.com/aescen/aescen-04-Git-and-Github.git
+[submodule "04-Git-and-Github/aescen-04-Git-and-Github"]	path = 04-Git-and-Github/aescen-04-Git-and-Github	url = https://github.com/aescen/aescen-04-Git-and-Github.git

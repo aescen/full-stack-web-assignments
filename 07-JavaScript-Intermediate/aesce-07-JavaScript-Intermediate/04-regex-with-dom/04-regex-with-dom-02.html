@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Skilvul</title>
+  </head>
+  <body>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" />
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" />
+    <button id="btn-submit" style="display: block; margin-top: 10px">submit</button>
+    <script>
+      /// EDIT DOWN HERE
+      const validateVals = (items) => {
+        for (let pos = 0; pos < items.length; pos += 1) {
+          if (items[pos].val.match(items[pos].validator) === null) {
+            alert(items[pos].error);
+            return;
+          } else if (items[pos].success !== undefined) {
+            alert(items[pos].success);
+          }
+        }
+      };
+
+      const emailEl = document.querySelector('#email');
+      const passwordEl = document.querySelector('#password');
+      const buttonEl = document.querySelector('#btn-submit');
+      const emailValidator = /^[^\d\W_][\w.-]*@[a-z0-9-]*[.][a-z]*$/;
+      const passwordValidator = /^[a-z0-9!@#$%^&*]{8,}$/i;
+
+      buttonEl.addEventListener('click', () => {
+        const emailVal = emailEl.value.trim();
+        const passwordVal = passwordEl.value;
+
+        const vals = [
+          {
+            val: emailVal,
+            validator: emailValidator,
+            error: 'tolong masukan email yang valid',
+          },
+          {
+            val: passwordVal,
+            validator: passwordValidator,
+            error: 'tolong masukan password sesuai ketentuan',
+            success: 'Welcome to The Jungle',
+          },
+        ];
+
+        validateVals(vals);
+      });
+    </script>
+  </body>
+</html>

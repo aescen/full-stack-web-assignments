@@ -1,0 +1,16 @@
+1. Apa itu `localStorage`?
+- Local storage adalah penyimpanan pada web yang menyimpan data string dalam bentuk key value.
+- Data yang tersimpan tidak akan hilang selama cache browser tidak dibersihkan.
+- Dapat menyimpan data hingga 5MB
+- Untuk menyimpan/mengubah dengan method setItem(key, value)
+- Untuk mengambil dengan method getItem(key)
+- Untuk menghapus dengan method removeItem(key)
+
+2. Apa itu `cookies`?
+- Data informasi seperti nama, sandi, ID iklan, token, kata kunci pencarian, pengaturan tema dsb
+- Ukuran maksimal tiap cookie adalah 4KB
+- Bisa terdapat lebih dari 1 cookie (cookies)
+- Memiliki tanggal kadaluarsa
+
+3. Apa perbedaan antara `localStorage` dan `sessionStorage`?
+Perbedaannya pada sifat penyimpanannya, pada session storage data akan hilang bila tab/browser ditutup
