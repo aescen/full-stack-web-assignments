@@ -14,9 +14,6 @@
 
 Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (problem solving) atau memberikan gamification** dari beberapa tema di atas.
 
-## Timeline
-23 Maret 2022 - 14 April 2022
-
 ## Specs
 - Setiap group harus membuat BRD
 - Setiap group harus membuat Wireframe
@@ -30,8 +27,9 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 - Setiap group wajib melakukan recording menggunakan Zoom dan diupload ke YouTube untuk mempresentasikan hasil karya aplikasinya
 ------
 - Aplikasi harus menggunakan library **React.js**
+- Wajib menggunakan **functional component**
 - Wajib menggunakan **React Hooks**
-- Aplikasi harus menggunakan salah satu State Management (pilih **redux** atau **react context**). **Direkomendasikan** menggunakan React Context dan useReducer.
+- Aplikasi harus menggunakan salah satu State Management (pilih **redux** atau **react context**).
 - Aplikasi harus menggunakan **API** baik dari External ataupun Fake API yang dibuat sendiri untuk digunakan pada aplikasi front-end
 - Setiap UI yang akan digunakan pada page lain, wajib di jadikan component
 - Harus membuat minimal **4 halaman**
@@ -41,7 +39,29 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 - Component yang dibuat harus bervariasi dan salah satu/lebih harus memiliki props
 - Harus membuat section Layout sebagai component
 - Wajib sudah mendukung tampilan responsive
-- Deploy aplikasi menggunakan [Netlify](https://netlify.com) atau [Vercel](https://vercel.com)
+- Konten dan desain bersifat fleksibel mengikuti kreatifitas dan kebutuhan peserta
+- Publish source code yang telah dibuat pada Repository GitHub
+- Deploy aplikasi website menggunakan [Netlify](https://netlify.com) atau [Vercel](https://vercel.com) dan integrasikan dengan Repository GitHub
+- Pastikan Repository GitHub dan Link Website dapat diakses secara publik
+
+## Penilaian
+
+Penilaian akan dilakukan dari beberapa hal:
+
+1. Self contribution dan Teamwork
+2. BRD dan Wireframe
+3. Presentation
+4. Kode React.js yang terorganisasi dengan baik
+5. Pemahaman dan implementasi component
+6. Pemahaman dan penggunaan terhadap functional component, props & state, styling pada react, react hooks, dan proptypes.
+7. Pemahaman dan penggunaan React Router 6
+8. Pemahaman dan penggunaan State Management
+9. Website sudah responsive
+10. Jumlah halaman website yang sesuai
+11. Konten yang sesuai dengan setiap peserta. Tidak boleh menggunakan konten dummy.
+12. Kemampuan peserta menggunakan Git & GitHub
+13. Kemampuan peserta dalam mendeploy aplikasi website
+
 ---
 Contoh list external API yang dapat digunakan:
 - [Public API](https://public-apis.io/)
